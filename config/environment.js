@@ -47,5 +47,11 @@ module.exports = function(environment) {
     // here you can enable a production-specific feature
   }
 
+  ENV['ember-a11y-testing'] = {
+    componentOptions: {
+      turnAuditOff: true, // Set to true to fix issue!
+    }
+  };
+
   return ENV;
 };

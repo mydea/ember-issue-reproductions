@@ -1,5 +1,15 @@
-{{!-- The following component displays Ember's default welcome message. --}}
-<WelcomePage />
-{{!-- Feel free to remove this! --}}
+<div style="height: 300px; background: red;"></div>
 
-{{outlet}}
+{{#basic-dropdown as |dd|}}
+
+    {{#dd.Trigger}}
+        Open dropdown
+    {{/dd.Trigger}}
+
+    {{#dd.Content}}
+        Dropdown Content
+    {{/dd.Content}}
+
+{{/basic-dropdown}}
+
+<div style="height: 2000px; background: blue;"></div>
