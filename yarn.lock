@@ -5285,7 +5285,7 @@ ember-compatibility-helpers@^1.1.1, ember-compatibility-helpers@^1.1.2, ember-co
     fs-extra "^9.1.0"
     semver "^5.4.1"
 
-ember-data@^3.26.0:
+ember-data@^3.27.1:
   version "3.27.1"
   resolved "https://registry.yarnpkg.com/ember-data/-/ember-data-3.27.1.tgz#02d6b76c1d5de0f50d24274147b8711f6ca4f28d"
   integrity sha512-36P8+7B6Z5ZjyITFbf2Wcub/fdE2DTsLoPPZK7It488fub5s90o85XC0WlwUQPvff39us2N4pzjwmCZ8Jj/gjg==
